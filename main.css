@@ -42,15 +42,20 @@ header img{
 /* ======================SECTION============================ */
 
     .links {
-        background-color: rgb(236, 197, 125);
+        background: rgba(0,0,0,0.5);
         width: 480px;
-        height: 500px;
-        padding: 3px;
+        height: 490px;
+        padding: 1px;
         border-radius:40px 30px 30px;
         /* margin: 3px 400px; */
     }
 
+    section img{
+        height: 50px;
+    }
+
         .links li {
+        height: 50px;
         margin: 10px 30px;
         display: flex;
         border-radius: 59px;
@@ -62,13 +67,9 @@ header img{
         transform: scale(1.03);
     }
 
-        
-    section img{
-        height: 60px;
-    }
 
     .links li a{
-        padding: 0 13px;
+        padding: 0 10px;
     }
     
     .links a{
@@ -118,7 +119,7 @@ header img{
     }
 
     .links li a{
-        margin: 0 1px;
+        padding: 10px;
     }
 
     section img{
@@ -126,6 +127,7 @@ header img{
     }
 
     .links li {
+        height: 40px;
         display: flex;
         border-radius: 59px;
         background-color: rgb(255, 255, 255);
@@ -146,3 +148,4 @@ header img{
 background: radial-gradient(circle, rgb(156, 61, 82) 0%, rgb(232, 231, 208) 100%);
     }
 }
+/* ============================================ */
