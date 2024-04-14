@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    background: rgb(248,169,119);
+    background: linear-gradient(90deg, rgba(248,169,119,0.7198529069831057) 0%, rgba(53,174,106,0.6750349798122374) 35%, rgba(210,255,0,0.7618697137057948) 100%);
+}
+.logo img{
+    height:99px;
+    margin: 10px 0;
+}
+/* .logo,
+h2,h5{
+        justify-content: space-around;
+        display: flex;
+}*/
+
+header, .container{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+header h5{
+    margin: 0 0 10px;
+}
+
+header img{
+        transition: 300ms;
+    }
+    header img:hover{
+        transform: scale(1.1);
+    }
+
+/* ======================SECTION============================ */
+
+    .links {
+        background-color: rgb(236, 197, 125);
+        width: 480px;
+        height: 500px;
+        padding: 3px;
+        border-radius:40px 30px 30px;
+        /* margin: 3px 400px; */
+    }
+
+        .links li {
+        margin: 10px 30px;
+        display: flex;
+        border-radius: 59px;
+        background-color: rgb(255, 255, 255);
+        transition: 400ms;
+    }
+    .links   li:hover{
+        background-color: rgb(0, 0, 0);
+        transform: scale(1.03);
+    }
+
+        
+    section img{
+        height: 60px;
+    }
+
+    .links li a{
+        padding: 0 13px;
+    }
+    
+    .links a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(149, 153, 28);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    footer p{
+        justify-content: center;
+        display: flex;
+        margin: 10px auto;
+    }
+
+    .logs h3{
+        margin: 0 10px;
+    }
+
+    .logs ol{
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        border-radius: 20px;
+        display: flex;
+        width: 300px;
+        margin: 0 80px; /*siga-nos*/
+    }
+    .logs ol:hover{
+        background-color: rgb(226, 150, 43);
+    }
+
+    .logs img{
+        height: 30px;
+        padding: 3px;
+        border-radius: 20px;
+    }
+/* =========TELA PEQUENA======== */
+@media screen and (max-width: 1020px){
+    .links {
+        background: rgba(0,0,0,0.5);
+        width: 300px;
+        height: 410px;
+        padding: 3px;
+        border-radius:40px 30px 30px;
+        /* margin: 20px 40px; */
+    }
+
+    .links li a{
+        margin: 0 1px;
+    }
+
+    section img{
+        height: 40px;
+    }
+
+    .links li {
+        display: flex;
+        border-radius: 59px;
+        background-color: rgb(255, 255, 255);
+        transition: 400ms;
+    }
+
+    .logs ol{
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        border-radius: 20px;
+        display: flex;
+        width: 200px;
+        margin: 0 50px; /*siga-nos*/
+    }
+
+    body{
+        background: rgb(238,174,202);
+background: radial-gradient(circle, rgb(156, 61, 82) 0%, rgb(232, 231, 208) 100%);
+    }
+}
