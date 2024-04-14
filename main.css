@@ -150,21 +150,17 @@ header img{
 background: radial-gradient(circle, rgb(156, 61, 82) 0%, rgb(232, 231, 208) 100%);
     }
 
-    footer p{
-        margin: 13px 60px;
-        display: block;
-    }
 }
 
 @media screen and (max-width: 428px){
     footer p{
-        margin: 10px 69px;
+        margin: 10px 65px;
         display: block;
     }
 }
 
     hr{
-    margin: 30px ;
+    margin: 20px;
 }
 footer p{
 
