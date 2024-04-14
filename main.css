@@ -80,12 +80,6 @@ header img{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    footer p{
-        justify-content: center;
-        display: flex;
-        margin: 10px auto;
-    }
-
     .logs h3{
         margin: 0 10px;
     }
@@ -106,6 +100,14 @@ header img{
         height: 30px;
         padding: 3px;
         border-radius: 20px;
+    }
+
+    footer p{
+        justify-content: center;
+        display: flex;
+    }
+    hr{
+        margin: 20px;
     }
 /* =========TELA PEQUENA======== */
 @media screen and (max-width: 1020px){
@@ -147,5 +149,24 @@ header img{
         background: rgb(238,174,202);
 background: radial-gradient(circle, rgb(156, 61, 82) 0%, rgb(232, 231, 208) 100%);
     }
+
+    footer p{
+        margin: 13px 60px;
+        display: block;
+    }
 }
-/* ============================================ */
+
+@media screen and (max-width: 428px){
+    footer p{
+        margin: 10px 69px;
+        display: block;
+    }
+}
+
+    hr{
+    margin: 30px ;
+}
+footer p{
+
+    align-items: center;
+}
