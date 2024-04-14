@@ -154,8 +154,8 @@ background: radial-gradient(circle, rgb(156, 61, 82) 0%, rgb(232, 231, 208) 100%
 
 @media screen and (max-width: 428px){
     footer p{
-        margin: 10px 65px;
-        display: block;
+        align-items: center;
+        display: flex;
     }
 }
 
