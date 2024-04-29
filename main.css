@@ -85,7 +85,7 @@ header img{
     }
 
     .logs h3{
-        margin: 0 10px;
+        margin: 0 0 0 65px;
     }
 
     .logs ol{
@@ -100,11 +100,12 @@ header img{
         background-color: rgb(226, 150, 43);
     }
 
-    .logs img{
-        height: 30px;
-        padding: 3px;
+    .logs  img{
+        height: 37px;
+        padding: 0px;
         border-radius: 20px;
     }
+
 
     footer p{
         justify-content: center;
@@ -153,6 +154,9 @@ header img{
         margin: 0 54px; /*siga-nos*/
     }
 
+    .logs h3{
+        margin: 0 4px 0 19px;
+    }
     body{
         background: rgb(238,174,202);
 background: radial-gradient(circle, rgb(156, 61, 82) 0%, rgb(232, 231, 208) 100%);
